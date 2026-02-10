@@ -1,0 +1,25 @@
+.game-board {
+  width: 1000px;
+  height: 600px;
+  background-color: var(--table-green);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.discard-pile {
+  width: 100px;
+  height: 140px;
+  border-radius: 10px;
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}

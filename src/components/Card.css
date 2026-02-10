@@ -1,0 +1,35 @@
+.card {
+  width: 80px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 4px;
+  transition: transform 0.2s;
+}
+
+.card.red {
+  background-color: var(--card-red);
+}
+
+.card.blue {
+  background-color: var(--card-blue);
+}
+
+.card.yellow {
+  background-color: var(--card-yellow);
+  color: #000;
+}
+
+.card.green {
+  background-color: var(--card-green);
+}
+
+.card.wild {
+  background-color: var(--card-wild);
+}

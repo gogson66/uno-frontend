@@ -1,0 +1,13 @@
+:root {
+  --table-green: #2e7d32;
+  --card-white: #ffffff;
+  --card-red: #d32f2f;
+  --card-blue: #1976d2;
+  --card-yellow: #fbc02d;
+  --card-green: #388e3c;
+  --card-wild: #000000;
+  --button-bg: #1976d2;
+  --button-color: #ffffff;
+  --button-hover-bg: #1565c0;
+  --font-main: 'Arial', sans-serif;
+}
