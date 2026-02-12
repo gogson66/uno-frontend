@@ -13,23 +13,10 @@
   transition: transform 0.2s;
 }
 
-.card.red {
-  background-color: var(--card-red);
+.card img {
+  width: 85px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-.card.blue {
-  background-color: var(--card-blue);
-}
-
-.card.yellow {
-  background-color: var(--card-yellow);
-  color: #000;
-}
-
-.card.green {
-  background-color: var(--card-green);
-}
-
-.card.wild {
-  background-color: var(--card-wild);
-}

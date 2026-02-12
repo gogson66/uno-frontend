@@ -1,14 +1,14 @@
 import React from 'react'
+import Card from './Card'
 import './PlayerHand.css'
 
-const PlayerHand = () => {
+
+const PlayerHand = ({player, cards, onPlay}) => {
   return (
     <div>
-      <h3>Your Cards</h3>
-      <div>
-        <button>Card 1</button>
-        <button>Card 2</button>
-        <button>Card 3</button>
+      <h3>{player}</h3>
+      <div className="hand">
+        {cards.map(c => (<Card key={c.id} card={c} onClick={() => onPlay(c.id)}></Card>))}
       </div>
     </div>
   )

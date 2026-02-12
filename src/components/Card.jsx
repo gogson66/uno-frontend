@@ -1,14 +1,15 @@
-import React from 'react'
+import "./Card.css"
 
-const Card = () => {
+const Card = ({card, onClick}) => {
+
+  if (!card) return <div>Error</div>
+  const imagePath = `/cards/${card.color}_${card.value}.jpg`
+  console.log(imagePath)
   return (
-    <div>
-      <h3>Card</h3>
-      <div >
-        <span>RED 5</span>
-      </div>
+    <div className="card" onClick={onClick}>
+      <img src={imagePath}/>
     </div>
   )
 }
 
-export default FrontCard
+export default Card
