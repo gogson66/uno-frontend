@@ -1,9 +1,17 @@
+.game-layout {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  border-color:  red !important;
+}
+
 .game-board {
+  flex: 1;
   width: 1000px;
   height: 600px;
   background-color: var(--table-green);
   border-radius: 20px;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,6 +25,7 @@
   border-radius: 10px;
   background-color: #444;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;

@@ -20,3 +20,16 @@
   border-radius: 10px;
 }
 
+.clickable:hover {
+  transform: translateY(-6px);
+  cursor: pointer;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.playable {
+  border: 3px solid blue; }
+
